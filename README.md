@@ -5,13 +5,10 @@
 ## Assignment Overview
 
 | Assignment | Topic | Files |
-|---|---|---|
 | 1 | Turing Test and CAPTCHA | turingtest.py, captcha.py |
 | 2 | Missionaries and Cannibals Search | missionaries_cannibals.py |
 
----
-
-## Assignment 1: Turing Test (turingtest.py)
+Assignment 1: Turing Test (turingtest.py)
 
 Simulates the Turing Test — a judge tries to tell apart a human and a bot from their responses.
 
@@ -20,35 +17,26 @@ Simulates the Turing Test — a judge tries to tell apart a human and a bot from
 - Judge — scores responses for bot signals, decides HUMAN or BOT (suspicion >= 40% = BOT)
 
 **How to Run:**
-```
 python turingtest.py
-```
-
 **Sample Output:**
-```
   Q: Do you have feelings?
   Bot   : I process sentiment data.
   Judge : BOT (suspicion: 40%)
   Human : Yes, I feel happy, sad, excited.
   Judge : HUMAN (suspicion: 0%)
-```
 
----
 
 ## Assignment 1: CAPTCHA (captcha.py)
 
 Implements a CAPTCHA system that blocks bots and allows humans through.
 
 | Type | Example | Tests |
-|---|---|---|
 | Math | Solve: 14 + 7 = ? | Arithmetic |
 | Logic | What comes after Tuesday? | Common knowledge |
 | Text | Type: R X X R W | Character recognition |
 
 **How to Run:**
-```
 python captcha.py
-```
 
 **Sample Output:**
 ```
@@ -56,9 +44,6 @@ python captcha.py
   Challenge : Solve: 2 - 14 = ?
   Bot   answered ??? -> FAIL
   Human answered -12 -> PASS
-```
-
----
 
 ## Assignment 2: Missionaries and Cannibals (missionaries_cannibals.py)
 
